@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+$primary-color: #2e0249;
+$secondary-color: #570a57;
+$tertiary-color: #a91079;
+$accent-color: #f806cc;
+$font-stack: "Open Sans";
+
+// $primary-color: #16213e;
+// $secondary-color: #0f3460;
+// $tertiary-color: #533483;
+// $accent-color: #e94560;
+
+@mixin card() {
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px whitesmoke;
+}
+
+body {
+  font-family: $font-stack;
+  background-color: $primary-color;
+  color: white;
+}

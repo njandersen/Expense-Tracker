@@ -1,0 +1,34 @@
+@use "src/base";
+
+.new-expense {
+  @include base.card;
+  background-color: base.$tertiary-color;
+}
+
+.new-expense button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid base.$accent-color;
+  background-color: base.$accent-color;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.new-expense button:hover,
+.new-expense button:active {
+  background-color: base.$secondary-color;
+  border-color: base.$secondary-color;
+}
+
+.new-expense button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-expense button.alternative:hover,
+.new-expense button.alternative:active {
+  background-color: #ddb3f8;
+}

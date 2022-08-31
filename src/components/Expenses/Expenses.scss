@@ -1,0 +1,9 @@
+@use "src/base";
+
+.expenses {
+  padding: 1rem;
+  background-color: base.$secondary-color;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+}
